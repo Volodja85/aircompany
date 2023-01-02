@@ -5,5 +5,10 @@ public class MyPlane  extends Plane {
         super(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
     }
 
-    //TODO implement it later
+    @Override
+    public String getModel() {
+        return super.getModel();
+    }
+
+
 }
